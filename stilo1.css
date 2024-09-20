@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+	background-color: #ffbb00b2;
+
+	
+	
+	
+}
+
+#task-input {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#add-task-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#task-list {
+	background-color: #ffc400;
+	text-align: left;
+	list-style: square;
+	padding: 100px;
+    border: 6px solid #000;
+    width: 600px auto;
+    margin: 20px auto;
+	
+    
+}
+
+#task {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#task:last-child {
+    border-bottom: none;
+}
+
+#completed {
+    text-decoration: line-through;
+    color: #555;
+}
+
+#delete-btn {
+
+   background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#caixa-de-texto1{
+	
+	background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	
+	
+}
+
+
+#caixa-de-texto2{
+	
+	background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	
+	
+}
+
+{
+
+#task-list-display {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+#task-list-display ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#task-list-display li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#task-list-display li:last-child {
+  border-bottom: none;
+}
+
+#task-list-display li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+
+
+
+
